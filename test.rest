@@ -12,14 +12,14 @@ POST http://localhost:13000/
 Content-Type: application/json
 
 {
-    "name": "Christabel", 
-    "location": "44 Erondu Boulevard"
+    "name": "Shauna", 
+    "location": "16 Clonsilla Boulevard"
 }
 
 
 ###
 
-PUT http://localhost:13000/35
+PUT http://localhost:13000/35?name=jamie&location=london
 
 ###
 
